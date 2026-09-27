@@ -1,0 +1,64 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+Thumbs.db
+Desktop.ini
+.DS_Store
+__MACOSX/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.bak
+
+# Streamlit temporary / config files
+.streamlit/
+
+# Dataset (raw medical images must not be committed to Git)
+dataset/chest_xray/
+dataset/*
+!dataset/.gitkeep
+
+# Models (large trained weights)
+models/*.keras
+models/*.h5
+!models/.gitkeep
+
+# Outputs - generated runtime and bulky artifacts
+outputs/plots/*.png
+outputs/metrics/*.json
+outputs/metrics/final_test_predictions.csv
+outputs/gradcam/*.png
+outputs/gradcam/predictions/
+outputs/gradcam/examples/
+!outputs/**/.gitkeep
+
+# Logs
+*.log

@@ -1,0 +1,7 @@
+split,class,count,class_percentage_in_split,split_total,dataset_total
+train,NORMAL,1341,25.71,5216,5856
+train,PNEUMONIA,3875,74.29,5216,5856
+val,NORMAL,8,50.0,16,5856
+val,PNEUMONIA,8,50.0,16,5856
+test,NORMAL,234,37.5,624,5856
+test,PNEUMONIA,390,62.5,624,5856
